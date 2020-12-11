@@ -1,0 +1,97 @@
+@media (max-width: 600px) {
+	nav {
+		position: static;
+		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	nav a {
+		display: block;
+		padding: 0;
+	}
+
+	header {
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	header a {
+		width: 40%;
+	}
+
+	.about_company {
+		margin: 0;
+		width: 100%;
+	}
+
+	.flex {
+		display: block;
+		width: 100%;
+	}
+
+	.flex div {
+		width: 100%;
+		padding: 5%;
+		margin: 10px auto;
+		box-sizing: border-box;
+		text-align: justify;
+	}
+
+	.flex img {
+		width: 100%;
+	}
+
+	.flex_team {
+		display: block;
+	}
+
+	.flex_team div {
+		width: 100%;
+		box-sizing: border-box;
+		margin: 4% 0;
+	}
+	
+
+	.flex_ul {
+		box-sizing: border-box;
+		display: block;
+	}
+
+	.flex_ul ul {
+		width: 100%;
+		margin: 4% 0;		
+	}
+
+	input {
+		box-sizing: border-box;
+	}
+
+	input[type=submit] {
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

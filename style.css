@@ -1,0 +1,263 @@
+
+
+/*justify-content — управляет выравниванием элементов по главной оси.
+align-items — управляет выравниванием элементов по перекрёстной оси.
+align-self — управляет выравниванием конкретного flex элемента по перекрёстной оси.
+align-content — описывается в спецификации как “упаковка flex строк”; управляет промежутками между flex строками по перекрёстной оси.*/
+
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+/*стили для меню*/
+nav {
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	opacity: 0.7;
+	background-color: white;
+	width: 100%;
+}
+nav a {
+	margin: 50px;
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	font-size: 20px;
+}
+
+/*стили для header*/
+header {
+	background-image: url(img/polygons.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 15%;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+header a {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 1.5%;
+	display: block;
+	margin: 3% auto;
+	width: 13%;
+	border-radius: 8px;
+}
+
+/*стили для 1 секции*/
+.about_company {
+	width: 80%;
+	margin: 4% auto;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex div {
+	width: 70%;
+}
+
+.flex img {
+	width: 30%;
+	height: 210px;
+}
+
+/*стили для 2 секции*/
+
+.team {
+	text-align: center;
+}
+
+.flex_team {
+	display: flex;
+	justify-content: center;
+}
+
+.flex_team div {
+	width: 23%;
+	border: 1px silver solid;
+	margin: 5px;
+	padding: 30px;
+}
+
+.flex_team img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.profession {
+	color: gray;
+}
+
+.flex_team a {
+	text-decoration: none;
+	background-color: #055b73;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+/*стили для 3 секции*/ 
+
+.ul {
+	background-color: #4c5359;
+	padding: 2%;
+	margin: 12px 0px 0px;
+
+}
+ 
+.ul h2 {
+	color: white;
+} 
+
+.about_slogan {
+	color: white;
+	text-align: center;
+} 
+
+.flex_ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ul ul {
+	background-color: white;
+	padding: 0;
+	width: 28%;
+	margin: 10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.ul li {
+	border-bottom: 1px silver solid;
+	padding: 17px;
+}
+
+#black_li1 {
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+#black_li2 {
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+#pro {
+	font-size: 25px;
+	background-color: #055b73;
+	color: white;
+	padding: 30px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.soum {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.day {
+	color: gray;
+}
+
+.buy {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	padding: 8px 20px;
+}
+
+.container_buy {
+	background-color: #f0f1f2;
+}
+
+/*стили для 4 секции*/
+
+.section4 {
+	background-color:  #f0f1f2;
+	padding: 4%;
+}
+
+.section4 h2 {
+	margin: 0;
+}
+
+.section4 p {
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-size: contain;
+}
+
+.slogan {
+	text-align: center;
+}
+
+.address {
+	background-image: url(img/address.png);
+}
+
+.phone {
+	background-image: url(img/phone.png);
+}
+
+.email {
+	background-image: url(img/mail.png);
+}
+
+.section4 input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 15px;
+	border: none;
+}
+
+input[type=submit] {
+	width: 11%;
+	margin: 15px auto;
+	background-color: black;
+	color: white;
+	border-radius: 10px; 
+}
+
+/*стили для footer*/ 
+footer {
+	color: white;
+	background-color: black;
+	padding: 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+
+
